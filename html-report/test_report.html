@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Automation Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        h1 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: #f4f4f4; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Automation Test Report</h1>
+    <table>
+        <tr><th>Test Case</th><th>Status</th><th>Details</th></tr>
+        <tr><td>TC_01: Verify the brain component is up and running</td><td class="pass">Pass</td><td>All Unix jobs returned 'Pass'.</td></tr>
+        <tr><td>TC_02: Verify the data in AAS0 table</td><td class="pass">Pass</td><td>All records have date 08-08-2025.</td></tr>
+        <tr><td>TC_03: Verify the data in AAS1 table</td><td class="pass">Pass</td><td>All records have date 08-08-2025.</td></tr>
+        <tr><td>TC_04: Verify the data in AAS2 table</td><td class="pass">Pass</td><td>All records have date 08-08-2025.</td></tr>
+        <tr><td>TC_05: Verify the status_flag in AA_DMSI_FEED_DETAILS table</td><td class="pass">Pass</td><td>All required status_flag columns are 'Y' for file1.</td></tr>
+    </table>
+    <p>All tests passed successfully.</p>
+</body>
+</html>
